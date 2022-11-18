@@ -1,0 +1,15 @@
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/bin/Debug/net7.0/CatWorx.BadgeMaker
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/bin/Debug/net7.0/CatWorx.BadgeMaker.deps.json
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/bin/Debug/net7.0/CatWorx.BadgeMaker.runtimeconfig.json
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/bin/Debug/net7.0/CatWorx.BadgeMaker.dll
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/bin/Debug/net7.0/CatWorx.BadgeMaker.pdb
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/CatWorx.BadgeMaker.csproj.AssemblyReference.cache
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/CatWorx.BadgeMaker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/CatWorx.BadgeMaker.AssemblyInfoInputs.cache
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/CatWorx.BadgeMaker.AssemblyInfo.cs
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/CatWorx.BadgeMaker.csproj.CoreCompileInputs.cache
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/CatWorx.BadgeMaker.dll
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/refint/CatWorx.BadgeMaker.dll
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/CatWorx.BadgeMaker.pdb
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/CatWorx.BadgeMaker.genruntimeconfig.cache
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/ref/CatWorx.BadgeMaker.dll
