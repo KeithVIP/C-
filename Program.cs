@@ -1,11 +1,57 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace CatWorx.BadgeMaker
 {
-    class Programß
+class Program
+{
+  static List<Employee> GetEmployees() // using custom type <Employee> instead of <string>; returns a list of Employee instances instead of a list of strings
+  {
+    // I will return a list of strings
+    List<Employee> employees = new List<Employee>(); // using custom type Employee instea of <string>
+    while (true)
     {
-      static void Main () //Entry Point
-        {
+      // ask for FIRST NAME
+      Console.WriteLine("Please enter first name: (leave empty to exit): ");
+      string firstName = Console.ReadLine() ?? "";
+      if (firstName == "")
+      {
+        break;
+      }
+
+      // ask for LAST NAME
+       Console.WriteLine("Please enter a last name: ");
+       string lastName = Console.ReadLine() ?? "";
+
+       Console.Write("Enter ID: ");
+       int id = Int32.Parse(Console.ReadLine() ?? "");
+
+       Console.Write("Enter Photo URL:");
+       string photoUrl = Console.ReadLine() ?? "";
+
+    Employee currentEmployee = new Employee(firstName, lastName, id, photoUrl);
+    employees.Add(currentEmployee);
+    }
+    // This is important!
+    return employees;
+  }
+// Any method that does not return a value must be defined to return void
+  static void PrintEmployees(List<Employee> employees) // List of <Employee> instances instead of list < strings>
+  {
+   for (int i = 0; i < employees.Count; i++) 
+{
+  string template = "{0,-10}\t{1,-20}\t{2}";
+  Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetFullName(), employees[i].GetPhotoUrl()));
+}
+  }
+
+  static void Main(string[] args)
+  {
+    List<Employee> employees = GetEmployees(); // List of <Employee> instances instead of list < strings>
+    PrintEmployees(employees);
+    }
+  }
+} 
             // string greeting = "Hello";
             // greeting = greeting + "World";
             // Console.WriteLine("greeting" + greeting);
@@ -68,17 +114,18 @@ namespace CatWorx.BadgeMaker
 // string thirdFood = favFoods[2];
 // Console.WriteLine("I like {0}, {1}, and {2}", firstFood, secondFood, thirdFood);
 
-List<string> employees = new List<string>() { "adam", "amy" };
-employees.Add("barbara");
-employees.Add("billy");
-employees.Add("keith");
+// List<string> employees = new List<string>() { "adam", "amy" };
+// employees.Add("barbara");
+// employees.Add("billy");
+// employees.Add("keith");
 
 // Console.WriteLine("My employees include {0}, {1}, {2}, {3}, {4}", employees[0], employees[1], employees[2], employees[3], employees[4]);
 
-for (int i =0; i < employees.Count; i++)
-{
-    Console.WriteLine(employees[i]);
-}
-        }
-    }
-}
+// for (int i =0; i < employees.Count; i++)
+// {
+//     Console.WriteLine(employees[i]);
+// }
+//         }
+
+//     }
+// }
