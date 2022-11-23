@@ -13,3 +13,9 @@
 /Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/CatWorx.BadgeMaker.pdb
 /Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/CatWorx.BadgeMaker.genruntimeconfig.cache
 /Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/ref/CatWorx.BadgeMaker.dll
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/bin/Debug/net7.0/SkiaSharp.dll
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/bin/Debug/net7.0/runtimes/osx/native/libSkiaSharp.dylib
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/bin/Debug/net7.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/bin/Debug/net7.0/runtimes/win-x64/native/libSkiaSharp.dll
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/bin/Debug/net7.0/runtimes/win-x86/native/libSkiaSharp.dll
+/Users/keithyanosy/Documents/ContinuationCourses/CatWorx.BadgeMaker/obj/Debug/net7.0/CatWorx.BadgeMaker.csproj.CopyComplete

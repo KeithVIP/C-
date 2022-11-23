@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic; //dictonary and list methods
+using System.Threading.Tasks; // contains task object
 
 namespace CatWorx.BadgeMaker
 {
@@ -46,12 +47,13 @@ class Program
 // }
 //   }
 
-  static void Main(string[] args)
+  async static Task Main(string[] args)
   {
     List<Employee> employees = GetEmployees(); // List of <Employee> instances instead of list < strings>
-    // PrintEmployees(employees);
+    // employees = GetEmployees();
     Util.PrintEmployees(employees);
     Util.MakeCSV(employees);
+    await Util.MakeBadges(employees);
     }
   }
 } 
