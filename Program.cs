@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; //dictonary and list methods
 
 namespace CatWorx.BadgeMaker
 {
@@ -36,21 +36,21 @@ class Program
     return employees;
   }
 // Any method that does not return a value must be defined to return void
-  static void PrintEmployees(List<Employee> employees) // List of <Employee> instances instead of list < strings>
-  {
-   for (int i = 0; i < employees.Count; i++) 
-{
-  string template = "{0,-10}\t{1,-20}\t{2}";
-  // Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetFullName(), employees[i].GetPhotoUrl()));
-  Util.PrintEmployees(employees);
-}
-  }
+//   static void PrintEmployees(List<Employee> employees) // List of <Employee> instances instead of list < strings>
+//   {
+//    for (int i = 0; i < employees.Count; i++) 
+// {
+//   string template = "{0,-10}\t{1,-20}\t{2}";
+//   // Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetFullName(), employees[i].GetPhotoUrl()));
+//   Util.PrintEmployees(employees);
+// }
+//   }
 
   static void Main(string[] args)
   {
     List<Employee> employees = GetEmployees(); // List of <Employee> instances instead of list < strings>
-    PrintEmployees(employees);
-      Util.PrintEmployees(employees);
+    // PrintEmployees(employees);
+    Util.PrintEmployees(employees);
     Util.MakeCSV(employees);
     }
   }

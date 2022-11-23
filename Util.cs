@@ -10,7 +10,14 @@ namespace CatWorx.BadgeMaker
     // Add List parameter to method
     public static void PrintEmployees(List<Employee> employees) 
     {
-      // ...
+      for (int i = 0; i < employees.Count; i++)
+      {
+        // each iteration in employees is now an Employee instance
+        string template = "{0,-10}\t{1,-20}\t{2}";
+
+        // new code
+        Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetFullName(), employees[i].GetPhotoUrl()));
+      }
     }
      public static void MakeCSV(List<Employee> employees)
     {
